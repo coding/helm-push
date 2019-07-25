@@ -1,0 +1,11 @@
+name: "push"
+version: "0.1.0"
+usage: "Integrate Chart package push to Coding Artifacts with Helm"
+description: |-
+  This plugin provides Chart package push to Coding Artifacts to Helm.
+ignoreFlags: false
+useTunnel: false
+command: "$HELM_PLUGIN_DIR/helm-push"
+hooks:
+  install: "$HELM_PLUGIN_DIR/install-binary.sh"
+  update: "$HELM_PLUGIN_DIR/install-binary.sh"
