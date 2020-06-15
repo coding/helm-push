@@ -1,5 +1,9 @@
 # helm-push
 
+
+**已弃用**！已迁移至[新仓库](https://coding-public.coding.net/public/helm-push/helm-push/git)。
+
+
 用于推送 Chart 包到 Coding 制品库的 Helm 插件。
 
 ## 安装
